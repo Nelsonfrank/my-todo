@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from './components/Navbar';
+import Containers from './components/Containers';
 
-ReactDOM.render(<Navbar/>, document.getElementById("root"));
+ReactDOM.render(<Containers />, document.getElementById("root"));
 registerServiceWorker();
